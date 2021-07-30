@@ -5,7 +5,7 @@ services:
     image: mariadb
     restart: always
     ports:
-      - '3306:3306'
+      - '3307:3306'
     environment:
       MYSQL_DATABASE: locations
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes' # aposztrófok nélkül boolean true-ként értelmezi
